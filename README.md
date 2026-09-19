@@ -8,15 +8,15 @@ As if  16 bits precision 70 billion parameter model requires 140GB of VRAM and T
 
 This repository Contains :
 
-├── src
+├── src/
 │   ├── transformer_block.py      # MultiHeadAttention, FFN, and full MegatronTransformer models
 │   ├── tensor_parallel.py        # ColumnParallelLinear, RowParallelLinear, and VocabParallelEmbedding
 │   └── utils.py                  # Distributed utilities and parameter counting helpers
-├── tests
+├── tests/
 │   └── test_implementation.py    # PyTest suite for shape validation, gradient flow, and residual connections
 ├── examples
 │   └── example_usage.py          # Practical usage scripts (inference, training loops, token generation)
-├── docs
+├── docs/
 │   └── ARCHITECTURE_GUIDE.md     # Detailed theory and architecture documentation
 ├── README.md
 └── requirements.txt
